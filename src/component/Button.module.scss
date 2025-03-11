@@ -1,0 +1,42 @@
+.Home {
+    background-color: red;
+    color: white;
+}
+
+.New {
+    background-color: aqua;
+    color: red;
+}
+.Contact {
+    background-color: chartreuse;
+    color: black;
+}
+
+.active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 145, 21);
+}
+.primari {
+    background-color: rgb(4, 137, 231);
+    color: aliceblue;
+}
+.disable{
+    color: #000;
+    background-color: rgb(250, 150, 0);
+   &:hover{
+    opacity: 0.5;
+    pointer-events: none;
+    color: white;
+    background-color: rgb(180, 29, 29);
+   }
+   
+}
+
+
+.bnt{
+    border: 2px solid rgb(63, 66, 45);
+    border-radius:5px;
+    padding: 4px;
+    margin: 10px;
+    
+}
